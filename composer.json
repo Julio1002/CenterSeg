@@ -1,0 +1,26 @@
+{
+    "name": "windows/inter-seg",
+    "description": "Segurança Inteligente",
+    "type": "project",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Sociedade404",
+            "email": "juliocsilvapdr@gmail.com"
+        }
+    ],
+    "require": 
+    {
+        "phpmailer/phpmailer": "~5.2",
+        "slim/slim":"2.0",
+        "rain/raintpl":"3.0.0"
+    },
+
+    "autoload":
+    {
+        "psr-4":
+        {
+            "CenterSeg\\":"vendor\\centerseg\\class\\src"
+        }
+    }
+}
